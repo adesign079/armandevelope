@@ -1,0 +1,35 @@
+.agency {
+    &__header {
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 1.31;
+        letter-spacing: normal;
+        text-align: center;
+        color: #000000;
+        margin-top: 97px;
+     }
+}
+.skills {
+    display: flex;
+    margin-top: 89px;
+}
+
+.development {
+    &__title {        
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 2.33;
+    text-align: center;
+    color: #000000; 
+    margin-top: 25px;       
+    }
+    &__subtitle {
+    font-size: 16px;
+    text-align: center;
+    color: #989a9c;
+    }
+    &__img {
+        display: flex;
+        margin: 0 auto;
+    }
+}

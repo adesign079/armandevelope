@@ -1,0 +1,27 @@
+.feautures {
+    background-color: #4451fc;
+    padding: 50px 0px 50px 0px;
+    z-index: 10;
+}
+
+
+.items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    .check {
+        width: 380px;
+
+    &__title {
+            margin-top: 20px;
+            font-size: 18px;
+            font-weight: bold;
+            color: #ffffff;
+}  
+    &__subtitle {
+            font-size: 14px;
+            line-height: 1.86;
+            color: #ffffff;
+          } 
+}

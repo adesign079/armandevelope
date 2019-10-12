@@ -1,0 +1,47 @@
+.services{
+    background: url(../../img/bg2.png) center (center/cover) no-repeat;
+    height: 572px;    
+    margin-top: 116px;
+    &__title {
+            font-size: 32px;
+            font-weight: 600;
+            text-align: center;
+            color: #ffffff;
+            padding-top: 112px;
+    }
+    &__subtitle {
+            font-size: 16px;
+            text-align: center;
+            color: #ffffff;
+    }
+}
+
+.advantages {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buying {
+
+    &__title {
+            font-size: 18px;
+            font-weight: 600;
+            font-style: normal;
+            text-align: center;
+            color: #ffffff;
+            margin-top: 20px;
+    }
+    &__subtitle {
+            font-size: 14px;
+            line-height: 1.71;
+            text-align: center;
+            color: #ffffff;
+            width: 353px;
+            margin-top: 12px;
+    }
+    &__img {
+        display: flex;
+        padding-top: 80px;
+        margin: 0 auto;
+    }
+}
